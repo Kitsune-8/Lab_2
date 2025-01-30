@@ -3,9 +3,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите верхний предел: ");
-        double N = in.nextDouble(); // Метод ввода
+        double N = in.nextDouble(); 
         System.out.println("Введите x: ");
-        double x = in.nextDouble(); // Считываем значение x
+        double x = in.nextDouble(); 
         in.close();
         double sum = 0;
         for (int n = 0; n < N; n++) {
